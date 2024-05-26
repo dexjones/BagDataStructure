@@ -36,13 +36,14 @@ public class Main {
         // merge bag1 and bag2
         bag1.merge(bag2);
 
+        //print merged bag
+        System.out.println("Merged bag contents:" + bag1);
+
         //create a new bag containing only distinct elements
         bag3 = bag1.distinct();
 
         //print distinct bag
-        System.out.println("Merged bag contents:" + bag3);
+        System.out.println("Distinct bag contents:" + bag3);
 
-        // create a new bag with only distinct elements
-        System.out.println("Distinct bag contents: " + bag1.distinct());
     }
 }
